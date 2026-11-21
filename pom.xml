@@ -180,6 +180,7 @@
         <module>sky-quartz</module>
         <module>sky-generator</module>
         <module>sky-common</module>
+        <module>sky-merchant</module>
     </modules>
     <packaging>pom</packaging>
 
