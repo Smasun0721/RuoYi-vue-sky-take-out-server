@@ -7,6 +7,12 @@
 
 基于 RuoYi 3.9.2 的苍穹外卖课程项目服务端初始化版本，保留 RuoYi 的系统管理、代码生成、定时任务和监控能力，可作为后续外卖业务模块的开发基础。
 
+## 系统架构
+
+![Sky 后台管理系统架构](docs/architecture.png)
+
+前端通过 REST API 调用 sky-admin，sky-system 提供系统管理能力，sky-ui 提供内置界面资源，MySQL 存储业务数据，Redis 提供缓存支持。
+
 ## 功能范围
 
 | 模块 | 说明 |
